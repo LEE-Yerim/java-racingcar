@@ -15,6 +15,8 @@
 - 3항 연산자를 쓰지 않는다.
 - 함수(또는 메소드)가 한 가지 일만 하도록 최대한 작게 만들어라.
 
+[main](https://github.com/plumwiserim/java-racingcar/tree/master/src/main/java/stringcalculator)
+
 ## String Calculator 구현 기능 목록
 - [x] 사용자가 수식을 문자열로 입력한다.
 - [x] 입력값이 빈 문자열이거나 null 이라면 IllegalArgumentException을 발생시킨다.
@@ -41,3 +43,6 @@
 - (Scanner) scanner
 - `StringCalculatorView#inputString` : 문자열 입력
 - `StringCalculatorView#outputResult` : 결과 출력
+
+[test](https://github.com/plumwiserim/java-racingcar/tree/master/src/test/java/stringcalculator)
+
