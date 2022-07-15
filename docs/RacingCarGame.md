@@ -57,6 +57,8 @@ step2
 - 핵심 비즈니스 로직을 가지는 객체를 domain 패키지, UI 관련한 객체를 view 패키지에 구현한다.
 - MVC 패턴 기반으로 리팩터링해 view 패키지의 객체가 domain 패키지 객체에 의존할 수 있지만, domain 패키지의 객체는 view 패키지 객체에 의존하지 않도록 구현한다.
 
+[main](https://github.com/plumwiserim/java-racingcar/tree/master/src/main/java/racingcargame)
+
 ## Racing Car Game 구현 기능 목록
 - [x] 사용자로부터 자동차 경주에 참가하는 자동차들의 이름을 문자열로 입력받는다.
 - [x] 사용자로부터 게임을 시도할 횟수를 입력받는다.
@@ -121,3 +123,5 @@ step2
 - `RacingCarGameController#createRacingCars` : 입력받은 자동차이름으로 자동차들을 생성
 - `RacingCarGameController#splitBySeparator` : 문자열을 구분자로 분리
 - `RacingCarGameController#createRacingCarsWithCarNames` : 자동차이름들로 자동차들 생성
+  
+  [test](https://github.com/plumwiserim/java-racingcar/tree/master/src/test/java/racingcargame)
